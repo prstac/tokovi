@@ -1,0 +1,6 @@
+dobar dan
+5
+true
+dummy text
+text 2
+end

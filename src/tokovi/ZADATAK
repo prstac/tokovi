@@ -1,0 +1,6 @@
+Kreiraj novu datoteku u kojoj se nalazi tekst:
+Pero;Marica;Ivica;Dodo;Ivana
+
+Korištenjem BufferedReadera učitaj podatke iz dateke u novu listu, kreiraj novo polje String[] koje će sadržavati imena.
+Ispiši imena iz polja
+Implementiraj try-catch
