@@ -12,6 +12,8 @@ public class Zadatak1 {
 
         try (FileReader reader = new FileReader("imena")) {
             BufferedReader bufferedReader = new BufferedReader(reader);
+
+            //**************String[] imena = bufferedReader.lines().findFirst().get().split(";");
             int c;
             StringBuilder s = new StringBuilder();
             while ((c = bufferedReader.read()) != -1) {
@@ -24,8 +26,9 @@ public class Zadatak1 {
             }
             imenaList.add(s.toString());
             String[] imena = imenaList.toArray(new String[]{});
-            for (int i = 0; i < imena.length; i++) {
-                System.out.println(imena[i]);
+
+            for (String string : imena) {
+                System.out.println(string);
             }
 
         } catch (IOException e) {
